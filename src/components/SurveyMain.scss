@@ -1,0 +1,261 @@
+$border-property: solid rgb(117, 112, 112) 1px;
+$background-color-green: rgb(3, 130, 142);
+$light-gray-color: rgb(234, 234, 239);
+$off-white-color: rgb(220, 243, 245);
+
+body {
+  margin-top: 0 !important;
+}
+
+.main-container {
+  width: 1200px;
+  margin: auto;
+  font-family: "FaktProSoft", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+.main-question-answer-container {
+  min-height: 450px;
+}
+
+.survey-complete {
+  font-size: 45px;
+  font-weight: 300;
+  border: $border-property;
+  width: 875px;
+  height: 255px;
+  text-align: center;
+  margin: 100px auto 50px auto;
+}
+
+.survey-complete button {
+  width: 210px;
+  height: 35px;
+  border-radius: 2px;
+  border: $border-property;
+  position: relative;
+  top: -4px;
+  background-color: $background-color-green;
+  color: $off-white-color;
+  font-size: 13px;
+  font-weight: 300;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.main-header {
+  text-align: center;
+  background-color: $background-color-green;
+  color: $off-white-color;
+  height: 100px;
+  font-size: 45px;
+  font-weight: 300;
+  line-height: 95px;
+  margin-top: 0;
+}
+
+.header-2-text {
+  font-size: 45px;
+  font-weight: 300;
+  border: $border-property;
+  width: 1000px;
+  height: 125px;
+  line-height: 115px;
+  text-align: center;
+  margin: 100px auto 50px auto;
+}
+
+.question-input-container {
+  width: 900px;
+  margin: auto;
+}
+
+.question-input-container div, 
+.question-answer-container h2, 
+.answers-container div {
+  font-size: 22px;
+  color: rgb(127, 127, 134);
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+
+.question-input-container input {
+  width: 725px;
+  height: 45px;
+  border-radius: 5px;
+  border: $border-property;
+  font-size: 20px;
+  font-weight: 200;
+  padding-left: 25px;
+}
+
+.question-input-container button {
+  margin-left: 15px;
+  width: 125px;
+  height: 35px;
+  border-radius: 2px;
+  border: $border-property;
+  position: relative;
+  top: -4px;
+  background-color: $light-gray-color;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.question-answer-container {
+  width: 700px;
+  margin: auto;
+}
+
+.show-question-question {
+  width: 700px;
+  height: 45px;
+  border-radius: 5px;
+  border: $border-property;
+  font-size: 20px;
+  font-weight: 200;
+  padding-left: 25px;
+  line-height: 45px;
+  margin-bottom: 30px;
+}
+
+.answers-container {
+  padding-left: 167px;
+  width: 561px;
+}
+
+.answers-container input {
+  width: 378px;
+  height: 45px;
+  border-radius: 5px;
+  border: $border-property;
+  font-size: 20px;
+  font-weight: 200;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+
+.answers-container button {
+  margin-left: 15px;
+  width: 150px;
+  height: 35px;
+  border-radius: 2px;
+  border: $border-property;
+  position: relative;
+  top: -4px;
+  background-color: $light-gray-color;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.answers-container li {
+  height: 45px;
+  border-radius: 5px;
+  border: $border-property;
+  font-size: 20px;
+  font-weight: 200;
+  padding-left: 10px;
+  line-height: 45px;
+  margin-bottom: 30px;
+  width: 340px;
+}
+
+.complete-survey-container {
+  width: 100%;
+  padding-right: 25px;
+}
+
+.complete-survey-container button {
+  float: right;
+  position: relative;
+  left: -25px;
+}
+
+.add-question-button {
+  width: 130px;
+  height: 35px;
+  border-radius: 2px;
+  border: $border-property;
+  position: relative;
+  top: -4px;
+  background-color: $light-gray-color;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.submit-button {
+  width: 130px;
+  height: 35px;
+  border-radius: 2px;
+  border: $border-property;
+  position: relative;
+  top: -4px;
+  background-color: $background-color-green;
+  color: $off-white-color;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.show-answers-for-review {
+  display: inline-block;
+  float: right;
+  cursor: pointer;
+}
+
+.show-answers-for-review img {
+  width: 55px;
+  position: relative;
+  top: -4px;
+}
+
+.down-arrow-image-for-review {
+  position: relative;
+  top: -2px;
+  right: -550px;
+  height:0px;
+}
+
+.down-arrow-image-for-review img {
+  width: 55px;
+  position: absolute;
+}
+
+.list-answers-for-review {
+  height: 45px;
+  border: $border-property;
+  font-size: 20px;
+  font-weight: 200;
+  padding-left: 10px;
+  line-height: 45px;
+  width: 600px;
+}
+
+.review-ul-list {
+  padding-left: 50px;
+}
+
+.list-answers-for-review:first-child {
+  border-radius: 4px;
+  position: relative;
+  left: -50px;
+}
+
+.list-answers-for-review:not(:first-child) {
+  width: 550px;
+}
+
+.hidden {
+  display: none;
+}
+
+input:focus, button:focus {
+  outline: none;
+}
+
+ul {
+  list-style-type: none;
+}
