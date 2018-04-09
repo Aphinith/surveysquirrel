@@ -5,6 +5,10 @@
 ## Build Setup
 
 ``` bash
+# clone repo
+git clone https://github.com/Aphinith/surveysquirrel.git
+cd into folder
+
 # install dependencies
 npm install
 
